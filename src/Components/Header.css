@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url('/src/Components/LovelyHome-9aBZ.ttf') format('truetype');
+}
+
+nav-bar{
+    padding: 3rem 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #351457;
+    font-family: "Lovely Home";
+    font-weight: bolder;
+}
+
+.logo h1:hover {
+    color: black;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar ul li{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    /* padding-left: 12px; */
+    font-size: 26px;
+    margin: 0 8px 0 8px;
+    padding: 10px;
+}
+
+
+/* .nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: black;
+    transition: width 0.5s ease;
+} */
+.nav-bar a:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgba(245, 240, 240, 0.81);
+
+}
+.nav-bar a:hover::after {
+    width: 90%;
+}
